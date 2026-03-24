@@ -5,7 +5,7 @@ const Welcome = () => {
   return (
     <div className='sm:flex-row flex flex-col justify-between h-screen '>
       <div className='md:flex-1 lg:h-full'>
-        <img src="/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt="bg" className='w-full max-[380px]:h-95 h-full sm:h-full object-cover' />
+        <img src="/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt="bg" className='w-full max-[380px]:h-90 h-full sm:h-full object-cover' />
       </div>
       <div className='flex flex-col justify-center items-center h-full bg-blue-50 lg:rw-125'>
         <div className='lg:w-[60%] max-sm:h-full w-full gap-6 flex flex-col justify-center lg:bg-slate-200 p-5 rounded-xl shadow-md'>
