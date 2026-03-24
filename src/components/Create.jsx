@@ -3,9 +3,9 @@ import React from 'react'
 const Create = () => {
   return (
     <div className='h-screen flex flex-col justify-center items-center'>
-            <div className=' w-full bg-blue-50 h-full xl:h-[90%] flex flex-col justify-between gap-10 p-8 sm:rounded-xl'>
+            <div className=' w-full md:w-100 bg-blue-50 h-full xl:h-[90%] flex flex-col justify-between gap-10 p-8 sm:rounded-xl '>
                 <div className='flex flex-col gap-8'>
-                    <h2 className='text-2xl w-1/2 font-semibold'>Create your PopX account</h2>
+                    <h2 className='text-2xl w-1/2 font-bold'>Create your PopX account</h2>
                     <form action="" className='flex flex-col gap-6 '>
                         <div className='relative'>
                             <label htmlFor="fullname" className='text-[#9e72fc] text-[14px] -top-2.5 left-3 font-semibold absolute bg-blue-50 px-1'>Full name <span className='text-red-500 '>*</span></label>

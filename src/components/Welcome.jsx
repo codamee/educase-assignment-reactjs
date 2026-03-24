@@ -2,12 +2,12 @@ import React from 'react'
 
 const Welcome = () => {
   return (
-    <div className='sm:flex justify-between h-screen '>
-      <div className='flex-1 h-full'>
-        <img src="/smartschwarz-building-5535464.jpg" alt="" className='w-full h-full object-cover'/>
+    <div className='sm:flex-row flex flex-col justify-between h-screen '>
+      <div className='flex-1 lg:h-full'>
+        <img src="/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt="" className='w-full h-100 sm:h-full object-cover' />
       </div>
-      <div className='flex flex-col justify-center items-center h-full bg-blue-50 w-125'>
-        <div className='w-[60%] gap-5 flex flex-col justify-center bg-slate-200 p-5 rounded-xl'>
+      <div className='flex flex-col justify-center items-center h-full bg-blue-50 lg:rw-125'>
+        <div className='lg:w-[60%] w-full gap-5 flex flex-col justify-center lg:bg-slate-200 p-5 rounded-xl'>
           <div className='flex flex-col gap-2'>
             <h1 className='text-2xl font-bold'>Welcome to PopX</h1>
             <p className='text-mauve-500'> Join PopX today and take control of your digital presence.</p>

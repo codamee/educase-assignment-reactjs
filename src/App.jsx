@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Welcome from './components/welcome'
+import Welcome from './components/Welcome'
 import Signin from './components/Signin'
 import Create from './components/Create'
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      {/* <Welcome /> */}
+      <Welcome />
       <Signin />
       <Create/>
     </>
