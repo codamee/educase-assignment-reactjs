@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Welcome />
-      <Signin />
-      <Create/>
+      {/* <Signin /> */}
+      {/* <Create/> */}
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Welcome = () => {
   return (
@@ -12,9 +13,13 @@ const Welcome = () => {
             <h1 className='text-2xl font-bold'>Welcome to PopX</h1>
             <p className='text-mauve-500'> Join PopX today and take control of your digital presence.</p>
           </div>
-          <div className='text-sm font-semibold flex flex-col gap-2'>
-            <button className='px-4 py-2 rounded-md text-slate-100  bg-[#6c25ff] cursor-pointer'>Create Account</button>
-            <button className='px-4 py-2 rounded-md text-slate-900 bg-[#cebafb] cursor-pointer'>Already Registered? Login</button>
+          <div className='text-sm font-semibold flex flex-col gap-2 w-full'>
+            <NavLink to='/create' className="">
+              <button className='px-4 py-2 rounded-md text-slate-100  bg-[#6c25ff] cursor-pointer w-full'>Create Account</button>
+            </NavLink>
+            <NavLink to='/sigin'>
+              <button className='px-4 py-2 rounded-md text-slate-900 bg-[#cebafb] cursor-pointer w-full'>Already Registered? Login</button>
+            </NavLink>
           </div>
         </div>
       </div>
