@@ -3,7 +3,7 @@
 A modern, responsive User Authentication application built with **React** and **Tailwind CSS**. This project demonstrates controlled state management, LocalStorage persistence, and a mobile-first UI approach.
 
 ## 🔗 Live Demo
-[**👉 Click here to view the Live Preview**](YOUR_NETLIFY_OR_VERCEL_LINK_HERE)
+[**👉 Click here to view the Live Preview**](https://educase-assignment-reactjs-m95u4nfdl-codamees-projects.vercel.app/)
 
 ---
 
