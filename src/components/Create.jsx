@@ -54,7 +54,7 @@ const Create = () => {
                 theme="light"
             // transition={Bounce}
             />
-            <div className='h-screen flex flex-col justify-center items-center'>
+            <div className='h-dvh flex flex-col justify-center items-center'>
                 <div className=' w-full md:w-100 bg-blue-50 h-full xl:h-[90%] flex flex-col justify-between gap-10 p-8 sm:rounded-xl shadow-lg '>
                     <div className='flex flex-col gap-8'>
                         <h2 className='text-2xl w-1/2 font-bold'>Create your PopX account</h2>

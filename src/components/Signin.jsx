@@ -52,7 +52,7 @@ const Signin = () => {
                 theme="light"
                 // transition={Bounce}
             />
-            <div className='h-screen flex flex-col justify-center items-center'>
+            <div className='h-dvh flex flex-col justify-center items-center'>
                 <div className='w-full md:w-100 shadow-lg bg-blue-50 h-full xl:h-[90%] flex flex-col justify-between gap-10 p-8 sm:rounded-xl'>
                     <div className='flex flex-col gap-6'>
                         <h2 className='text-2xl text w-[60%] font-bold'>Signin to  your PopX account</h2>

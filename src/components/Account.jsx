@@ -29,9 +29,9 @@ const Account = () => {
 
 
     return (
-        <div className='min-h-screen  justify-center flex flex-col items-center md:py-10'>
+        <div className='h-dvh  justify-center flex flex-col items-center md:py-10'>
             <div className='w-full max-w-md bg-blue-100 h-screen md:h-auto md:min-h-150 shadow-lg md:rounded-xl overflow-hidden flex flex-col'>
-                <div className=' px-5 py-6 border-b border-blue-100'>
+                <div className=' px-5 py-6 border-b border-slate-300'>
                     <h2 className='text-xl font-semibold text-gray-800'>Account Settings</h2>
                 </div>
 
