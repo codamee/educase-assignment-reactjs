@@ -31,7 +31,7 @@ const Account = () => {
     return (
         <div className='h-dvh  justify-center flex flex-col items-center md:py-10'>
             <div className='w-full max-w-md bg-blue-100 h-screen md:h-auto md:min-h-150 shadow-lg md:rounded-xl overflow-hidden flex flex-col'>
-                <div className=' px-5 py-6 border-b border-slate-300'>
+                <div className=' px-5 py-6 border-b border-slate-400'>
                     <h2 className='text-xl font-semibold text-gray-800'>Account Settings</h2>
                 </div>
 
@@ -68,7 +68,7 @@ const Account = () => {
                         </p>
                     </div>
 
-                    <div className='border-t border-b border-dashed border-gray-300 py-6'>
+                    <div className='border-t border-b border-slate-400 py-6'>
                         <div className='flex flex-col gap-4'>
                             <div>
                                 <p className='text-xs text-gray-400 font-bold uppercase tracking-widest mb-1'>Phone Number</p>
