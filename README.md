@@ -11,8 +11,8 @@ A modern, responsive User Authentication application built with **React** and **
 
 | Desktop View | Mobile View |
 | :--- | :--- |
-| ![Desktop View](https://via.placeholder.com/600x400?text=Desktop+Dashboard+Preview) | ![Mobile View](https://via.placeholder.com/300x600?text=Mobile+App+Preview) 
----
+| ![desktop](https://github.com/user-attachments/assets/62e69348-92ca-4f31-ba1f-b23bfb5f52bf) | ![mobile](https://github.com/user-attachments/assets/227c52f2-e824-41ec-9235-2acf59c5ae43) |
+
 
 ## ✨ Key Features
 
@@ -38,7 +38,7 @@ A modern, responsive User Authentication application built with **React** and **
 
 1.  **Clone the project**
     ```bash
-    git clone [https://github.com/yourusername/popx-task.git](https://github.com/yourusername/popx-task.git)
+    git clone https://github.com/codamee/educase-assignment-reactjs.git
     ```
 
 2.  **Install dependencies**
