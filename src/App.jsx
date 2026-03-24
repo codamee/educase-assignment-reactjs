@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Welcome from './components/welcome'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='text-blue-400'>Hello world</div>
+      <Welcome/>
     </>
   )
 }
