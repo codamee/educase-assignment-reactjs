@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Welcome from './components/welcome'
 import Signin from './components/Signin'
+import Create from './components/Create'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +10,8 @@ function App() {
   return (
     <>
       {/* <Welcome /> */}
-      <Signin/>
+      <Signin />
+      <Create/>
     </>
   )
 }
