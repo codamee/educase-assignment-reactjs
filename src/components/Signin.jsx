@@ -29,7 +29,7 @@ const Signin = () => {
                 });
             }
         } else {
-            toast('👤 No user found create a user!', {
+            toast('👤 No Account found create an Account!', {
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,
