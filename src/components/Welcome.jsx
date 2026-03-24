@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Welcome = () => {
   return (
-    <div className='sm:flex-row flex flex-col justify-between h-screen '>
+    <div className='sm:flex-row flex flex-col h-dvh justify-between '>
       <div className='md:flex-1 lg:h-full'>
         <img src="/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt="bg" className='w-full max-[380px]:h-90 h-full sm:h-full object-cover' />
       </div>
