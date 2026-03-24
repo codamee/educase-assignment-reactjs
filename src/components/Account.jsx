@@ -19,7 +19,13 @@ const Account = () => {
         localStorage.removeItem("popx_user")
         navigate('/');
     }
-
+    if (!data) {
+        return (
+            <div className="h-screen flex items-center justify-center bg-blue-50">
+                <p className="text-[#6c25ff] font-bold animate-pulse">Loading Profile...</p>
+            </div>
+        );
+    }
 
 
     return (
