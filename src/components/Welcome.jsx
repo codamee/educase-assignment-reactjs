@@ -7,12 +7,12 @@ const Welcome = () => {
       <div className='w-full sm:w-1/2 lg:w-3/5 h-[50vh] sm:h-auto'>
         <img
           src="/kevin-matos-Nl_FMFpXo2g-unsplash.jpg"
-          alt="bg"
+          alt="bg" 
           className='w-full h-full object-cover'
         />
       </div>
 
-      <div className='flex flex-col justify-center items-center h-full bg-blue-50 '>
+      <div className='flex flex-1 flex-col justify-center items-center h-full bg-blue-50 '>
         <div className='lg:w-[60%] max-sm:h-full w-full gap-6 flex flex-col justify-center lg:bg-slate-200 p-5 rounded-xl shadow-md'>
           <div className='flex flex-col gap-4'>
             <h1 className='text-2xl font-bold'>Welcome to PopX</h1>
